@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  background-color: pink;
+}
+.header-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center !important;
+}
+.item-list {
+  list-style-type: none;
+  display: flex;
+  padding-top: 5px;
+}
+.item {
+  margin-left: 10px;
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+  border: 1px solid blue;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.item:hover {
+  background-color: red;
+  cursor: pointer;
+}
